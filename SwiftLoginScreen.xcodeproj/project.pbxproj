@@ -13,6 +13,8 @@
 		6AE4866F1B39EA3500CAC84B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4866E1B39EA3500CAC84B /* Images.xcassets */; };
 		6AE486721B39EA3500CAC84B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE486701B39EA3500CAC84B /* LaunchScreen.xib */; };
 		6AE4867E1B39EA3500CAC84B /* SwiftLoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE4867D1B39EA3500CAC84B /* SwiftLoginScreenTests.swift */; };
+		6AE486881B3AED8B00CAC84B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE486871B3AED8B00CAC84B /* LoginVC.swift */; };
+		6AE4868A1B3AF01800CAC84B /* SingupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE486891B3AF01800CAC84B /* SingupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6AE486771B39EA3500CAC84B /* SwiftLoginScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE4867C1B39EA3500CAC84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE4867D1B39EA3500CAC84B /* SwiftLoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginScreenTests.swift; sourceTree = "<group>"; };
+		6AE486871B3AED8B00CAC84B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6AE486891B3AF01800CAC84B /* SingupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				6AE4866E1B39EA3500CAC84B /* Images.xcassets */,
 				6AE486701B39EA3500CAC84B /* LaunchScreen.xib */,
 				6AE486651B39EA3500CAC84B /* Supporting Files */,
+				6AE486871B3AED8B00CAC84B /* LoginVC.swift */,
+				6AE486891B3AF01800CAC84B /* SingupVC.swift */,
 			);
 			path = SwiftLoginScreen;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE4868A1B3AF01800CAC84B /* SingupVC.swift in Sources */,
 				6AE4866A1B39EA3500CAC84B /* ViewController.swift in Sources */,
 				6AE486681B39EA3500CAC84B /* AppDelegate.swift in Sources */,
+				6AE486881B3AED8B00CAC84B /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
